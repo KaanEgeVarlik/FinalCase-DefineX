@@ -23,7 +23,7 @@ public class SmsController {
     @GetMapping("/{ssn}/{bornDate}")
     public ResponseEntity<String> sendSMS( @PathVariable String ssn ,@PathVariable LocalDate bornDate) {
 
-        Twilio.init("ACe3e645a5b35c0b8a5ece6f835bcd6d92","d85ef76a826038c592b26d51e6c4652f");
+        Twilio.init("ACe3e645a5b35c0b8a5ece6f835bcd6d92","37cbf764bc6a6a9f5ea7d24bb8e36b88");
 
         Optional<User> user = userRepository.findBySsn(ssn);
 
