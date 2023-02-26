@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definex.FinalCase</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <form class="container" id="form1">
+        <p>Apply For a Loan</p>
+        <input name="fullName" type="text" placeholder="Full name">
+        <input name="bornDate" type="date" placeholder="Date of Birth (dd/MM/yyyy)">
+        <input name="phoneNumber" type="text" placeholder="Phone Number (5**)">
+        <input name="ssn" type="text" placeholder="Social Security Number">
+        <input name="income" type="number" placeholder="Income">
+        <input name="creditScore" type="number" placeholder="Credit Score">
+        <input name="deposit" type="number" placeholder="Deposit(Optional)">
+        <button type="submit" onclick="alert('Application has been sent.')">Apply</button>
+    </form>
+
+    <form class="container" id="form2">
+        <p>Application Results</p>
+        <input name="ssn" type="text" placeholder="Social Security Number">
+        <input name="bornDate" type="date" placeholder="Date of Birth">
+        <button type="submit" onclick="alert('Message has been sent.')">Check Results</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
